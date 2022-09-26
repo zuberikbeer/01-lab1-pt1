@@ -1,0 +1,93 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+  margin: 10px;
+  list-style: none;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0px;
+  color: #69696a;
+}
+a {
+  list-style: none;
+  color: #69696a;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  color: #f9fafc;
+  background-color: #000;
+}
+
+p {
+  border-left: 3px solid #69696a;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  border: 16px solid rgba(247, 193, 162, 0.7);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer {
+  position: fixed;
+  left: 15px;
+  bottom: 5px;
+  color: #000;
+}
+
+.Link1 {
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+  color: #69696a;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div.top-chirpus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  ul.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .space {
+    margin: 10%;
+  }
+  .grey-line {
+    width: 50%;
+  }
+  .button2 {
+    width: 50%;
+  }
+  .circle1 {
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10%;
+  }
+  .circle2 {
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 8%;
+  }
+}
