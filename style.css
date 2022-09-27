@@ -3,11 +3,17 @@ body {
   background-color: #f9fafc;
   margin: 10px;
 }
-
+h1 {
+  font-size: medium;
+}
 .navbar {
   list-style: none;
   padding: 0px;
   color: #69696a;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 140px;
 }
 a {
   color: #69696a;
@@ -74,6 +80,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
   }
   div.top-chirpus {
     display: flex;
@@ -88,6 +95,7 @@ footer {
     flex-direction: row;
     align-items: flex-end;
     font-size: small;
+    height: 24px;
   }
   #hire-us {
     padding: 6px;
